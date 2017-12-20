@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Diamond-Square Algorithm</title>
+	</head>
+	<style>
+		body {
+			background-color: black;
+		}
+		canvas {
+			position: absolute;
+			top: 35px;
+			left: 50%;
+			transform: translate(-50%, 0);
+			border: 2px solid black;
+		}
+		form {
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+	</style>
+	<body>
+		<canvas id="canvas" width="513" height="513"></canvas>
+		<form>
+			<input type="button" value="Generate!" />
+			<select>
+				<option value="257">257x257</option>
+				<option value="513" selected>513x513</option>
+				<option value="1025">1025x1025</option>
+				<option value="2049">2049x2049</option>
+				<option value="4097">4097x4097</option>
+			</select>
+		</form>
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+</html>
