@@ -10,3 +10,6 @@ With 4 different heightmap sizes :
 * 4097 x 4097
 
 (The algorithm requires the heightmap size to be a power of 2 plus 1 in both directions)
+
+
+(Right click save image if you want)
